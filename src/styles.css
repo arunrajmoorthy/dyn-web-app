@@ -1,1 +1,74 @@
 /* You can add global styles to this file, and also import other style files */
+
+.row {
+    clear: both;
+}
+
+.country {
+    float: left;
+    width: 250px;
+}
+
+.country form {
+    float: left;
+}
+
+.country .country-input {
+    width: 100px;
+}
+
+.average {
+    float: left;
+    width: 250px;
+}
+
+.horiz-bar {
+    float: left;
+    display: inline-block;
+    /* background-color: blue; */
+    border-style: solid;
+    border-color: black;
+    height: 20px;
+    width: 30%;
+    position: relative;
+}
+
+.horiz-bar .inner_progress {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    /* width: 30%; */
+    background-color: lightblue;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.search_select_wrapper {
+    
+}
+
+.search_select_wrapper ul {
+    position: absolute;
+    left: 0;
+    top: 22px;
+    padding-left: 0;
+    margin: 0;
+    background-color: #fff;
+    z-index: 2;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.search_select_wrapper ul li {
+    list-style: none;   
+    padding: 5px 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+
+
